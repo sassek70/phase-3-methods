@@ -15,6 +15,7 @@ def add num1, num2
 end
 
 def halve num1
+    # if statement first otherwise will always return nil
     if num1.class != Integer
         return nil
     end
